@@ -1,0 +1,7 @@
+.banner{
+  background: url("https://media.newyorker.com/photos/5c926fae4c50545726e44f85/master/pass/Lemann-College-Admissions.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: rgb(195, 208, 209);;
+}
