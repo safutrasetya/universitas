@@ -13,7 +13,7 @@
 
 
     <title>ContactUs</title>
-  </head> 
+  </head>
   <body>
     <style>
  body{
@@ -48,7 +48,7 @@
   position: absolute;
   bottom: 135%;
   right: 0;
-  left: 0; 
+  left: 0;
   transform: scale(3);
   transition: all 0.3s linear 0s;
 }
@@ -67,7 +67,7 @@
   background: #53c2b0;
   position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
   z-index: -1;
 }
 
@@ -137,7 +137,7 @@
   color:#53c2b0;
   background: #f7f5ec;
   text-decoration: none;
-  
+
 }
 
 	</style>
@@ -153,18 +153,20 @@
               <a class="nav-link " aria-current="page" href="index.php">Home</a>
               <a class="nav-link" href="about.php">About Us</a>
               <a class="nav-link active" href="contact.php">Contact Us</a>
-    
+
             </div>
           </div>
         </div>
       </nav>
     <!--end navbar-->
- 
+
 
     <!--our team-->
     <div class="container mt-5">
 		<div class="row">
-			<div class="col-md-3 col-sm-6">
+      <div class="col-md-1 col-sm">
+      </div>
+			<div class="col-md-3 col-sm">
 				<div class="our-team">
 					<div class="pic">
 						<img src="img/rere.jpeg" alt="">
@@ -174,14 +176,14 @@
 						<span class="post">(201402024)</span>
 					</div>
 					<ul class="social">
- 
+
 						<li><a href="" class="fab fa-facebook-f"></a></li>
 						<li><a href="" class="fab fa-instagram"></a></li>
- 
+
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-4 col-">
 				<div class="our-team">
 					<div class="pic">
 						<img src="img/safutra.jpeg" alt="">
@@ -191,14 +193,14 @@
 						<span class="post">(201402066)</span>
 					</div>
 					<ul class="social">
- 
+
 						<li><a href="" class="fab fa-facebook-f"></a></li>
 						<li><a href="" class="fab fa-instagram"></a></li>
- 
+
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-3 col-sm">
 				<div class="our-team">
 					<div class="pic">
 						<img src="img/fadil.jpeg" alt="">
@@ -208,17 +210,21 @@
 						<span class="post">(201402078)</span>
 					</div>
 					<ul class="social">
- 
+
 						<li><a href="" class="fab fa-facebook-f"></a></li>
 						<li><a href="" class="fab fa-instagram"></a></li>
- 
+
 					</ul>
 				</div>
 			</div>
+      <div class="col-md-1 col-sm">
+      </div>
       </div>
 
-      <div class="row mt-2">
-			<div class="col-md-3 col-sm-6">
+      <div class="row mt-2 mb-2">
+        <div class="col-sm-2">
+        </div>
+			<div class="col-sm-4">
 				<div class="our-team">
 					<div class="pic">
 						<img src="img/pretty.jpeg" alt="">
@@ -228,34 +234,35 @@
 						<span class="post">(201402084)</span>
 					</div>
 					<ul class="social">
- 
+
 						<li><a href="" class="fab fa-facebook-f"></a></li>
 						<li><a href="" class="fab fa-instagram"></a></li>
- 
+
 					</ul>
 				</div>
 			</div>
-            
-            <div class="col-md-3 col-sm-6">
-				<div class="our-team">
-					<div class="pic">
-						<img src="img-4.jpg" alt="">
-					</div>
-					<div class="team-content">
-						<h3 class="title">Marco Markus Mahulae</h3>
+      <div class="col-sm-4">
+        <div class="our-team">
+          <div class="pic">
+            <img src="img-4.jpg" alt="">
+          </div>
+          <div class="team-content">
+            <h3 class="title">Marco Markus Mahulae</h3>
 						<span class="post">(201402114)</span>
-					</div>
-					<ul class="social">
- 
-						<li><a href="" class="fab fa-facebook-f"></a></li>
-						<li><a href="" class="fab fa-instagram"></a></li>
- 
-					</ul>
-				</div>
-			</div>
+          </div>
+          <ul class="social">
+
+            <li><a href="" class="fab fa-facebook-f"></a></li>
+            <li><a href="" class="fab fa-instagram"></a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      </div>
 		</div>
 	</div>
- 
+
 
   <!--javascript bootsrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
