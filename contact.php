@@ -244,7 +244,7 @@
       <div class="col-sm-4">
         <div class="our-team">
           <div class="pic">
-            <img src="img-4.jpg" alt="">
+            <img src="img/marco.jpeg" alt="">
           </div>
           <div class="team-content">
             <h3 class="title">Marco Markus Mahulae</h3>
