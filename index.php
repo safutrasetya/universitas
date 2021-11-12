@@ -24,7 +24,9 @@
             <div class="navbar-nav ms-auto">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="about.php">About Us</a>
+              <a class="nav-link" href="universitasfinder.php">Finder</a>
               <a class="nav-link" href="contact.php">Contact Us</a>
+               
     
             </div>
           </div>
