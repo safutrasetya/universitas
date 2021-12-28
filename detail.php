@@ -64,6 +64,7 @@
               '?university dbo:abstract ?abstrak.'.
               '?university dbo:country ?country.'.
               '?country dbp:commonName ?countryname.'.
+              '?university dbp:city ?cityname.'.
               '?university geo:lat ?lat.'.
               '?university geo:long ?long.'.
               'OPTIONAL {?university dbo:numberOfDoctoralStudents ?jlhgrad}.'.
@@ -108,8 +109,8 @@
           </div>
           <p class="mt-3"><?php echo $row->abstrak; ?></p>
           <p>Negara : <?php echo $row->countryname; ?></p>
-          <p>Lokasi : </p>
-          <p>Rektor : <?php echo $row->rector; ?></p>
+          <p>Lokasi/Kota : <?php echo $row->cityname; ?></p>
+          <p>Rektor : <?php if(!empty($row->rector)){ echo $row->rector;} ?></p>
           <p>Kepala Sekolah : <?php if(!empty($row->principal)){ echo $row->principal;} ?></p>
           <p>Dekan : <?php if(!empty($row->dean)){ echo $row->dean;} ?></p>
           <p>Pemelihara/Wali  : <?php if(!empty($row->provost)){ echo $row->provost;} ?></p>
