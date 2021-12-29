@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="index.css">
 
     <title>Index</title>
-  </head> 
+  </head>
   <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
@@ -25,20 +25,23 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="about.php">About Us</a>
               <a class="nav-link" href="contact.php">Contact Us</a>
-               
-    
+
+
             </div>
           </div>
         </div>
       </nav>
     <!--end navbar-->
 
-       
+
     <!-- jumbotron-->
   <div class="container-fluid banner">
       <div class="container text-center">
-        <h4 class="display-6">Selamat Datang di Website Kami</h4>
-        <h3 class="display-1">hai!hallo!</h3>
+        <h4 class="display-6"><b>Selamat Datang di Website Kami</b></h4>
+         <h3 class="display-1">hai! hallo!</h3>
+        <div class="book-btn">
+            <a href="universitasfinder.php" class="table-btn hvr-underline-from-center"><button type="button" class="btn btn-light">Start Now</button></a>
+        </div>
       </div>
   </div>
 
